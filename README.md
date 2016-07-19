@@ -10,7 +10,6 @@ This is PHP library with validators for Polish identification numbers like: PESE
  
  
 # Installation
---------------
 
 The recommended way to install this library is
 [Composer](http://getcomposer.org).
@@ -27,7 +26,6 @@ php composer.phar require kiczort/polish-validator
 ```
 
 # Documentation
----------------
 
 ## Example of use PeselValidator:
 
@@ -76,14 +74,12 @@ if ($validator->isValid('123456789')) {
 ```
 
 # Bug tracking
---------------
 
 [GitHub issues](https://github.com/kiczort/polish-validator/issues).
 If you have found bug, please create an issue.
 
 
 # MIT License
--------------
 
 License can be found [here](https://github.com/kiczort/polish-validator/blob/master/LICENSE).
 
