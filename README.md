@@ -1,4 +1,5 @@
-![Polish Validator]
+PHP library with Polish validators 
+==================================
 
 [![License](https://img.shields.io/packagist/l/Kiczort/PolishValidator.svg)](https://packagist.org/packages/kiczort/polish-validator)
 [![Version](https://img.shields.io/packagist/v/Kiczort/PolishValidator.svg)](https://packagist.org/packages/kiczort/polish-validator)
