@@ -1,15 +1,15 @@
 ![Polish Validator]
 
-[![License]](https://packagist.org/packages/kiczort/polish-validator)
-[![Version]](https://packagist.org/packages/kiczort/polish-validator)
-[![Build status]](http://travis-ci.org/Kiczort/PolishValidator)
-[![Scrutinizer Quality Score]](https://scrutinizer-ci.com/g/Kiczort/PolishValidator/)
+[![License](https://img.shields.io/packagist/l/Kiczort/PolishValidator.svg)](https://packagist.org/packages/kiczort/polish-validator)
+[![Version](https://img.shields.io/packagist/v/Kiczort/PolishValidator.svg)](https://packagist.org/packages/kiczort/polish-validator)
+[![Build status](https://travis-ci.org/kiczort/polish-validator.svg)](http://travis-ci.org/Kiczort/PolishValidator)
+[![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/Kiczort/PolishValidator.svg)](https://scrutinizer-ci.com/g/Kiczort/PolishValidator/)
 
 This is PHP library with validators for Polish identification numbers like: PESEL, NIP, REGON.
  
  
-Installation
-------------
+# Installation
+--------------
 
 The recommended way to install this library is
 [Composer](http://getcomposer.org).
