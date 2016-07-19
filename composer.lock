@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2b53a9daeff9da4c001e7a973232ab30",
-    "content-hash": "9498a1856be1588f4440f0e995c3f808",
+    "hash": "287b7d2f802c8582a38f86d0ff72e0de",
+    "content-hash": "1fa32bfc54cab7df0d2a8176f03993db",
     "packages": [],
     "packages-dev": [
         {
@@ -422,7 +422,7 @@
         },
         {
             "name": "phpunit/php-timer",
-            "version": "1.0.8",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
@@ -515,16 +515,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.x-dev",
+            "version": "4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b9cf8c5ff8bc658bebf8e9a5473fc513c38473de"
+                "reference": "283111a903eb9225aedb95e846bef876e006a688"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b9cf8c5ff8bc658bebf8e9a5473fc513c38473de",
-                "reference": "b9cf8c5ff8bc658bebf8e9a5473fc513c38473de",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/283111a903eb9225aedb95e846bef876e006a688",
+                "reference": "283111a903eb9225aedb95e846bef876e006a688",
                 "shasum": ""
             },
             "require": {
@@ -538,7 +538,7 @@
                 "phpunit/php-code-coverage": "~2.1",
                 "phpunit/php-file-iterator": "~1.4",
                 "phpunit/php-text-template": "~1.2",
-                "phpunit/php-timer": "^1.0.6",
+                "phpunit/php-timer": ">=1.0.6",
                 "phpunit/phpunit-mock-objects": "~2.3",
                 "sebastian/comparator": "~1.1",
                 "sebastian/diff": "~1.2",
@@ -583,7 +583,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-06-17 15:17:43"
+            "time": "2015-08-07 03:57:43"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1125,7 +1125,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.9"
+        "php": ">=5.3.1"
     },
     "platform-dev": []
 }
