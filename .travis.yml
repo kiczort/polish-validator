@@ -12,8 +12,8 @@ php:
   - 7.1
 
 env:
-  - COMPOSER_FLAGS='--prefer-lowest --prefer-stable'
-  - COMPOSER_FLAGS=''
+  - COMPOSER_FLAGS='update --prefer-lowest --prefer-stable'
+  - COMPOSER_FLAGS='install'
 
 install:
   - composer $COMPOSER_FLAGS --prefer-dist --no-interaction
