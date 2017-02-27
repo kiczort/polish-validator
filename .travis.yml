@@ -12,10 +12,10 @@ php:
   - 7.1
 
 env:
-- COMPOSER_FLAGS='--prefer-lowest --prefer-stable'
-- COMPOSER_FLAGS=''
+  - COMPOSER_FLAGS='--prefer-lowest --prefer-stable'
+  - COMPOSER_FLAGS=''
 
 install:
-   - composer $COMPOSER_FLAGS --prefer-dist --no-interaction
+  - composer $COMPOSER_FLAGS --prefer-dist --no-interaction
 
 script: bin/phpunit --verbose
