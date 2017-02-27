@@ -18,4 +18,4 @@ env:
 install:
   - composer $COMPOSER_FLAGS --prefer-dist --no-interaction
 
-script: bin/phpunit --verbose
+script: vendor/phpunit/phpunit/phpunit --verbose
