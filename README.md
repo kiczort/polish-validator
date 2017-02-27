@@ -73,6 +73,19 @@ if ($validator->isValid('123456789')) {
 ...
 ```
 
+## Example of use PwzValidator:
+
+```php
+...
+use Kiczort\PolishValidator\PwzValidator;
+...
+$validator = new PwzValidator();
+if ($validator->isValid('1234567')) {
+...
+}
+...
+```
+
 # Bug tracking
 
 [GitHub issues](https://github.com/kiczort/polish-validator/issues).
