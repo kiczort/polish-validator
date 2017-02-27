@@ -15,6 +15,11 @@ env:
   - COMPOSER_FLAGS='update --prefer-lowest --prefer-stable'
   - COMPOSER_FLAGS='install'
 
+matrix:
+  exclude:
+    - php: 5.3
+      env: COMPOSER_FLAGS='install'
+
 install:
   - composer $COMPOSER_FLAGS --prefer-dist --no-interaction
 
