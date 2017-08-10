@@ -10,3 +10,5 @@ testValidation:
     wrong_checksum2: [12345678512346, false]
     proper_checksum: [123456785, true]
     proper_checksum2: [12345678512347, true]
+    proper_checksum3: [251890090, true]
+    proper_checksum4: [55678259078290, true]

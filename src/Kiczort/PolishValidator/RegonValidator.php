@@ -48,7 +48,7 @@ class RegonValidator implements ValidatorInterface
 
         $checksum = $sum % 11;
 
-        return $checksum == $chars[8];
+        return $checksum % 10 == $chars[8];
     }
 
     /**
@@ -64,6 +64,6 @@ class RegonValidator implements ValidatorInterface
 
         $checksum = $sum % 11;
 
-        return $checksum == $chars[13];
+        return $checksum % 10 == $chars[13];
     }
 }
