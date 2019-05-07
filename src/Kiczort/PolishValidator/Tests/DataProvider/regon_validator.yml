@@ -8,6 +8,7 @@ testValidation:
     none_digits_chars: [12345678a, false]
     wrong_checksum: [123456786, false]
     wrong_checksum2: [12345678512346, false]
+    wrong_checksum3: [12346678512347, false]
     proper_checksum: [123456785, true]
     proper_checksum2: [12345678512347, true]
     proper_checksum3: [251890090, true]
