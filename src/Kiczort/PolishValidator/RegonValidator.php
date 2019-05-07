@@ -28,11 +28,12 @@ class RegonValidator implements ValidatorInterface
             return false;
         }
 
-        if (strlen($value) == 9) {
+        if (strlen($value) === 9) {
             return $this->hasProperChecksumForShort($value);
-        } else {
-            return $this->hasProperChecksumForLong($value);
         }
+
+        return $this->hasProperChecksumForShort(substr(0, 9, $value))
+            && $this->hasProperChecksumForLong($value);
     }
 
     /**
@@ -48,7 +49,7 @@ class RegonValidator implements ValidatorInterface
 
         $checksum = $sum % 11;
 
-        return $checksum % 10 == $chars[8];
+        return $checksum % 10 === $chars[8];
     }
 
     /**
@@ -64,6 +65,6 @@ class RegonValidator implements ValidatorInterface
 
         $checksum = $sum % 11;
 
-        return $checksum % 10 == $chars[13];
+        return $checksum % 10 === $chars[13];
     }
 }
