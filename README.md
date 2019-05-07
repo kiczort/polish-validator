@@ -5,6 +5,7 @@ PHP library with Polish validators
 [![Version](https://img.shields.io/packagist/v/kiczort/polish-validator.svg)](https://packagist.org/packages/kiczort/polish-validator)
 [![Build status](https://travis-ci.org/kiczort/polish-validator.svg)](http://travis-ci.org/kiczort/polish-validator)
 [![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/kiczort/polish-validator.svg)](https://scrutinizer-ci.com/g/kiczort/polish-validator/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkiczort%2Fpolish-validator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkiczort%2Fpolish-validator?ref=badge_shield)
 
 This is PHP library with validators for Polish identification numbers like: PESEL, NIP, REGON.
  
@@ -96,3 +97,6 @@ If you have found bug, please create an issue.
 
 License can be found [here](https://github.com/kiczort/polish-validator/blob/master/LICENSE).
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkiczort%2Fpolish-validator.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkiczort%2Fpolish-validator?ref=badge_large)
