@@ -1,9 +1,0 @@
-testValidation:
-    too_short: [12314, false]
-    wrong_date: [12314111111, false]
-    wrong_date2: [55813211111, false]
-    none_digits_chars: [123a41f1111, false]
-    proper_date: [55813111111, true]
-    wrong_checksum: [44051401358, false, {strict: true}]
-    wrong_checksum_pass: [44051401358, true]
-    proper_checksum: [44051401359, true, {strict: true}]

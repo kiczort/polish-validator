@@ -1,7 +1,0 @@
-testValidation:
-    empty: ['', true]
-    null: [null, true]
-    too_short: [123123, false]
-    too_long: [12312333, false]
-    wrong_checksum: [123456786, false]
-    proper_checksum: [9559813, true]
