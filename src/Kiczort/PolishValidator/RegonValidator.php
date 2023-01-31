@@ -28,42 +28,43 @@ class RegonValidator implements ValidatorInterface
             return false;
         }
 
-        if (strlen($value) == 9) {
+        if (strlen($value) === 9) {
             return $this->hasProperChecksumForShort($value);
-        } else {
-            return $this->hasProperChecksumForLong($value);
         }
+
+        return $this->hasProperChecksumForShort(substr($value, 0, 9))
+            && $this->hasProperChecksumForLong($value);
     }
 
     /**
      * @param $value
      * @return bool
      */
-    private function hasProperChecksumForShort($value)
+    private function hasProperChecksumForShort($value): bool
     {
         $chars = str_split($value);
-        $sum = array_sum(array_map(function($weight, $digit) {
+        $sum = array_sum(array_map(static function($weight, $digit) {
             return $weight * $digit;
         }, array(8, 9, 2, 3, 4, 5, 6, 7), array_slice($chars, 0, 8)));
 
         $checksum = $sum % 11;
 
-        return $checksum % 10 == $chars[8];
+        return $checksum % 10 === (int) $chars[8];
     }
 
     /**
      * @param $value
      * @return bool
      */
-    private function hasProperChecksumForLong($value)
+    private function hasProperChecksumForLong($value): bool
     {
         $chars = str_split($value);
-        $sum = array_sum(array_map(function($weight, $digit) {
+        $sum = array_sum(array_map(static function($weight, $digit) {
             return $weight * $digit;
         }, array(2, 4, 8, 5, 0, 9, 7, 3, 6, 1, 2, 4, 8), array_slice($chars, 0, 13)));
 
         $checksum = $sum % 11;
 
-        return $checksum % 10 == $chars[13];
+        return $checksum % 10 === (int) $chars[13];
     }
 }

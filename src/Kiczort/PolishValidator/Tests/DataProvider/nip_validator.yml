@@ -1,7 +1,0 @@
-testValidation:
-    too_short: [123456789, false]
-    too_long: [12345678901, false]
-    only_zeros: [0000000000, false]
-    none_digits_chars: [123456789a, false]
-    wrong_checksum: [1234563217, false]
-    proper_checksum: [1234563218, true]

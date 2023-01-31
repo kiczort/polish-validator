@@ -3,9 +3,8 @@ PHP library with Polish validators
 
 [![License](https://img.shields.io/packagist/l/kiczort/polish-validator.svg)](https://packagist.org/packages/kiczort/polish-validator)
 [![Version](https://img.shields.io/packagist/v/kiczort/polish-validator.svg)](https://packagist.org/packages/kiczort/polish-validator)
-[![Build status](https://travis-ci.org/kiczort/polish-validator.svg)](http://travis-ci.org/kiczort/polish-validator)
-[![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/kiczort/polish-validator.svg)](https://scrutinizer-ci.com/g/kiczort/polish-validator/)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkiczort%2Fpolish-validator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkiczort%2Fpolish-validator?ref=badge_shield)
+[![Build status](https://github.com/kiczort/polish-validator/actions/workflows/test.yaml/badge.svg?event=push)](https://github.com/kiczort/polish-validator/actions/workflows/test.yaml?event=push)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkiczort%2Fpolish-validator.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkiczort%2Fpolish-validator?ref=badge_shield)
 
 This is PHP library with validators for Polish identification numbers like: PESEL, NIP, REGON.
  
